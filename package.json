@@ -1,0 +1,34 @@
+{
+  "name": "note-package",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc && echo \"Build completed. Output in dist/\"",
+    "prepare": "npm run build",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "files": [
+    "/dist"
+  ],
+  "keywords": [
+    "notes",
+    "typescript",
+    "ts-node"
+  ],
+  "author": "Saddy",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "license": "ISC",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saddamiophp/note-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saddamiophp/note-package/issues"
+  },
+  "homepage": "https://github.com/saddamiophp/note-package#readme"
+}
